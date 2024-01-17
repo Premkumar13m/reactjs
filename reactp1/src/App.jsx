@@ -6,6 +6,7 @@ function App() {
   //let counter=15;
   let [counter,setCounter]=useState(15)
   const addValue=()=>{
+    //let counter=15;
     console.log(`clicked :`,counter)
     //counter=counter+1
     setCounter(counter+1)
