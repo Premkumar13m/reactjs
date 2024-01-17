@@ -3,17 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 function App() {
-  //let counter=15;
   let [counter,setCounter]=useState(15)
   const addValue=()=>{
-    //let counter=15;
     console.log(`clicked :`,counter)
-    setCounter(counter+1);
-    //counter=counter+1
-    // setCounter((prevCounter)=>prevCounter+1)
-    // setCounter((prevCounter)=>prevCounter+1)
-    // setCounter((prevCounter)=>prevCounter+1)
-    // setCounter((prevCounter)=>prevCounter+1)
+    setCounter(counter+1)
+    setCounter(counter+1)
+    setCounter(counter+1)
+    setCounter(counter+1)
   }
   const removeValue=()=>{
     if(counter==0){
@@ -33,3 +29,12 @@ function App() {
 }
 
 export default App
+
+question .> what will be the output of this question
+
+solution :- output will be the same as it was earlier the number will increase by one only not 4.to make it increase by 4 we simlply do i.e.,
+
+setCounter((prevCounter)=>prevCounter+1)
+setCounter((prevCounter)=>prevCounter+1)
+setCounter((prevCounter)=>prevCounter+1)
+setCounter((prevCounter)=>prevCounter+1)
