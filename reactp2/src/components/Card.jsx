@@ -2,7 +2,7 @@
 import React from 'react'
 
 // eslint-disable-next-line react/prop-types, no-unused-vars
-function Card({username,btnText="visit me"}) {
+function Card({username,btnText="visit me",para}) {
   return (
     <div className="relative h-[400px] w-[300px] rounded-md mb-4">
     <img
@@ -14,7 +14,7 @@ function Card({username,btnText="visit me"}) {
     <div className="absolute bottom-4 left-4 text-left">
       <h1 className="text-lg font-semibold text-white">{username}</h1>
       <p className="mt-2 text-sm text-gray-300 font-semibold">
-      Spring is one of the four temperate seasons, succeeding winter and preceding summer.
+      {para}
       </p>
       <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold hover:bg-transparent text-blue-700">
         {btnText} →
