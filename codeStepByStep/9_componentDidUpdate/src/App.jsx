@@ -29,3 +29,4 @@ class App extends Component {
 }
 export default App
 
+// note:- we can call api's in the  componentDidUpdate() only when we have the conditional call otherwise used componentDidMount() only. 
