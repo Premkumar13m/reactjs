@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <>
-    \<Child counter={this.state.count}/>
+    <Child counter={this.state.count}/>
         <button onClick={() => this.setState({ count:1})}>Update Count</button>
       </>
     )
