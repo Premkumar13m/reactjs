@@ -14,3 +14,4 @@ function User(props){
 }
 export default User;
 //updating the value of the current value of the count in the previous props.
+//to know about useref visits-  https://www.w3schools.com/react/react_useref.asp
